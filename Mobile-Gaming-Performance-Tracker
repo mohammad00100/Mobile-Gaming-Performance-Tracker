@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* تحديد نمط الخط */
+        body {
+            font-family: "Roboto", Arial, sans-serif;
+            font-size: 14px;
+            color: #444;
+        }
+        
+        /* تحديد نمط الجدول وتنسيقه */
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        /* تنسيق العناوين في الجدول */
+        th {
+            background-color: #2ecc71;
+            color: white;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        /* تنسيق الخانات في الجدول */
+        td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        /* تحديد الخطوط التقدم */
+        .progress-bar {
+            height: 16px;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            overflow: hidden;
+            position: relative;
+            border-radius: 8px;
+        }
+        
+        /* تحديد خط التقدم */
+        .progress {
+            height: 100%;
+            background-color: #2ecc71;
+            width: 0;
+            transition: width 1s;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>اللعبة</th>
+            <th>قوة الهاتف</th>
+            <th>معدل التحديث</th>
+        </tr>
+        <tr>
+            <td>PUBG</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </td>
+            <td>مثال</td>
+        </tr>
+        <tr>
+            <td>Call of Duty</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </td>
+            <td>مثال</td>
+        </tr>
+        <tr>
+            <td>Fortnite</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                </div>
+            </td>
+            <td>مثال</td>
+        </tr>
+        <tr>
+            <td>PUBG New State</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </td>
+            <td>مثال</td>
+        </tr>
+        <tr>
+            <td>Free Fire</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </td>
+            <td>مثال</td>
+        </tr>
+    </table>
+</body>
+</html>
+
