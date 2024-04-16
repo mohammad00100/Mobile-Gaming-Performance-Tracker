@@ -1,6 +1,3 @@
-Certainly! Below is a professional README file in English for your HTML code:
-
----
 
 # Mobile Gaming Performance Tracker
 
